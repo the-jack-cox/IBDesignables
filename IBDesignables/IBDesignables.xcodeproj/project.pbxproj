@@ -14,6 +14,12 @@
 		FA33590E19D1A5590067FF21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA33590D19D1A5590067FF21 /* Images.xcassets */; };
 		FA33591119D1A5590067FF21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA33590F19D1A5590067FF21 /* LaunchScreen.xib */; };
 		FA33591D19D1A55A0067FF21 /* IBDesignablesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33591C19D1A55A0067FF21 /* IBDesignablesTests.m */; };
+		FA33592919D230EC0067FF21 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33592819D230EC0067FF21 /* StarView.swift */; };
+		FA33592B19D231E70067FF21 /* StarFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA33592A19D231E70067FF21 /* StarFieldView.xib */; };
+		FA33592F19D235470067FF21 /* EllipseView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33592E19D235470067FF21 /* EllipseView.m */; };
+		FA33593119D23FE80067FF21 /* StarEllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33593019D23FE80067FF21 /* StarEllipseView.swift */; };
+		FA33593319D438A00067FF21 /* InspectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33593219D438A00067FF21 /* InspectableView.swift */; };
+		FA33593819D444500067FF21 /* UIView+Inspectables.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33593719D444500067FF21 /* UIView+Inspectables.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,16 @@
 		FA33591619D1A55A0067FF21 /* IBDesignablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignablesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA33591B19D1A55A0067FF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA33591C19D1A55A0067FF21 /* IBDesignablesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBDesignablesTests.m; sourceTree = "<group>"; };
+		FA33592619D22CED0067FF21 /* StarPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StarPlayground.playground; sourceTree = "<group>"; };
+		FA33592719D230EB0067FF21 /* IBDesignables-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBDesignables-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA33592819D230EC0067FF21 /* StarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		FA33592A19D231E70067FF21 /* StarFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarFieldView.xib; sourceTree = "<group>"; };
+		FA33592D19D235470067FF21 /* EllipseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipseView.h; sourceTree = "<group>"; };
+		FA33592E19D235470067FF21 /* EllipseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EllipseView.m; sourceTree = "<group>"; };
+		FA33593019D23FE80067FF21 /* StarEllipseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarEllipseView.swift; sourceTree = "<group>"; };
+		FA33593219D438A00067FF21 /* InspectableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectableView.swift; sourceTree = "<group>"; };
+		FA33593619D444500067FF21 /* UIView+Inspectables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Inspectables.h"; sourceTree = "<group>"; };
+		FA33593719D444500067FF21 /* UIView+Inspectables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Inspectables.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +97,10 @@
 		FA3358FF19D1A5590067FF21 /* IBDesignables */ = {
 			isa = PBXGroup;
 			children = (
-				FA33590419D1A5590067FF21 /* AppDelegate.h */,
-				FA33590519D1A5590067FF21 /* AppDelegate.m */,
-				FA33590719D1A5590067FF21 /* ViewController.h */,
-				FA33590819D1A5590067FF21 /* ViewController.m */,
+				FA33592C19D234190067FF21 /* ComponentPreview */,
+				FA33593419D438A40067FF21 /* ExtendingIB */,
+				FA33593519D438C80067FF21 /* Typical Objects */,
 				FA33590A19D1A5590067FF21 /* Main.storyboard */,
-				FA33590D19D1A5590067FF21 /* Images.xcassets */,
 				FA33590F19D1A5590067FF21 /* LaunchScreen.xib */,
 				FA33590019D1A5590067FF21 /* Supporting Files */,
 			);
@@ -117,6 +131,42 @@
 				FA33591B19D1A55A0067FF21 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA33592C19D234190067FF21 /* ComponentPreview */ = {
+			isa = PBXGroup;
+			children = (
+				FA33592619D22CED0067FF21 /* StarPlayground.playground */,
+				FA33592819D230EC0067FF21 /* StarView.swift */,
+				FA33592719D230EB0067FF21 /* IBDesignables-Bridging-Header.h */,
+				FA33592A19D231E70067FF21 /* StarFieldView.xib */,
+				FA33592D19D235470067FF21 /* EllipseView.h */,
+				FA33592E19D235470067FF21 /* EllipseView.m */,
+				FA33593019D23FE80067FF21 /* StarEllipseView.swift */,
+			);
+			name = ComponentPreview;
+			sourceTree = "<group>";
+		};
+		FA33593419D438A40067FF21 /* ExtendingIB */ = {
+			isa = PBXGroup;
+			children = (
+				FA33593219D438A00067FF21 /* InspectableView.swift */,
+				FA33593619D444500067FF21 /* UIView+Inspectables.h */,
+				FA33593719D444500067FF21 /* UIView+Inspectables.m */,
+			);
+			name = ExtendingIB;
+			sourceTree = "<group>";
+		};
+		FA33593519D438C80067FF21 /* Typical Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FA33590419D1A5590067FF21 /* AppDelegate.h */,
+				FA33590519D1A5590067FF21 /* AppDelegate.m */,
+				FA33590719D1A5590067FF21 /* ViewController.h */,
+				FA33590819D1A5590067FF21 /* ViewController.m */,
+				FA33590D19D1A5590067FF21 /* Images.xcassets */,
+			);
+			name = "Typical Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +252,7 @@
 				FA33590C19D1A5590067FF21 /* Main.storyboard in Resources */,
 				FA33591119D1A5590067FF21 /* LaunchScreen.xib in Resources */,
 				FA33590E19D1A5590067FF21 /* Images.xcassets in Resources */,
+				FA33592B19D231E70067FF21 /* StarFieldView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +271,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA33590919D1A5590067FF21 /* ViewController.m in Sources */,
+				FA33593819D444500067FF21 /* UIView+Inspectables.m in Sources */,
 				FA33590619D1A5590067FF21 /* AppDelegate.m in Sources */,
+				FA33593319D438A00067FF21 /* InspectableView.swift in Sources */,
+				FA33592919D230EC0067FF21 /* StarView.swift in Sources */,
 				FA33590319D1A5590067FF21 /* main.m in Sources */,
+				FA33592F19D235470067FF21 /* EllipseView.m in Sources */,
+				FA33593119D23FE80067FF21 /* StarEllipseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +401,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IBDesignables/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IBDesignables/IBDesignables-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -355,9 +414,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IBDesignables/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IBDesignables/IBDesignables-Bridging-Header.h";
 			};
 			name = Release;
 		};
