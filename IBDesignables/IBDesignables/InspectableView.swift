@@ -15,7 +15,7 @@ enum StyleEnumeration: String {
 }
 @IBDesignable
 class InspectableView: UIView {
-
+    // items that do display in IB
     @IBInspectable var myColor:UIColor!
     @IBInspectable var myString:String = "A String"
     @IBInspectable var anInteger:Int32!

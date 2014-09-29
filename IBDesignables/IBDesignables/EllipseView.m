@@ -26,17 +26,16 @@
     return self;
 }
 
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
+
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
     
+    // get the graphics context
     CGContextRef context = UIGraphicsGetCurrentContext();
     
-    
+    // Set the fill color to the specified fill color
     CGContextSetFillColorWithColor(context, self.fillColor.CGColor);
     
-    
+    // fill an ellipse within the bounds of the view
     CGContextFillEllipseInRect(context, self.bounds);
     
 }

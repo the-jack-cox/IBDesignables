@@ -2,6 +2,8 @@
 //  StarView.swift
 //  IBDesignables
 //
+//  Draw a 5 pointed star within a view
+//
 //  Created by Jack Cox on 9/23/14.
 //  Copyright (c) 2014 CapTech Consulting. All rights reserved.
 //
@@ -14,12 +16,12 @@ import UIKit
     @IBInspectable var starColor:UIColor
     
     required init(coder aDecoder: NSCoder) {
-        starColor = UIColor.yellowColor();
+        starColor = UIColor.yellowColor(); // set the default star color
         super.init(coder: aDecoder)
     }
     
     override init(frame: CGRect) {
-        starColor = UIColor.yellowColor();
+        starColor = UIColor.yellowColor(); // set the default star color
         super.init(frame: frame)
     }
     

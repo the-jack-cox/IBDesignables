@@ -32,4 +32,21 @@
     return self.layer.borderWidth;
 }
 
+#define kBigBorderWidth         5
+#define kBigBorderColor         [UIColor redColor]
+- (BOOL) bigBorder {
+    if ((self.layer.borderWidth == kBigBorderWidth) && (self.layer.borderColor==(kBigBorderColor.CGColor))) {
+        return YES;
+    }
+    return NO;
+    
+}
+
+- (void) setBigBorder:(BOOL)bigBorder {
+    if (bigBorder) {
+        self.layer.borderColor = kBigBorderColor.CGColor;
+        self.layer.borderWidth = kBigBorderWidth;
+    }
+}
+
 @end

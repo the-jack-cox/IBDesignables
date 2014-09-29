@@ -475,6 +475,7 @@
 				FA33592219D1A55A0067FF21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA33592319D1A55A0067FF21 /* Build configuration list for PBXNativeTarget "IBDesignablesTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				FA33592519D1A55A0067FF21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

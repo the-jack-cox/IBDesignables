@@ -1,9 +1,8 @@
-// Playground - noun: a place where people can play
+// StarPlayground - A simple playground to experiment with how to draw a 5 pointed star within
+// a view
 
 import UIKit
 
-
-var str = "Hello, playground"
 
 class StarView : UIView {
     
