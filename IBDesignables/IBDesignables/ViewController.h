@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) IBInspectable NSString *randomText;
+@property (nonatomic, strong) IBInspectable UIImage  *someImage;
 
 @end
 

@@ -20,6 +20,7 @@
 		FA33593119D23FE80067FF21 /* StarEllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33593019D23FE80067FF21 /* StarEllipseView.swift */; };
 		FA33593319D438A00067FF21 /* InspectableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA33593219D438A00067FF21 /* InspectableView.swift */; };
 		FA33593819D444500067FF21 /* UIView+Inspectables.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33593719D444500067FF21 /* UIView+Inspectables.m */; };
+		FA583A5219FE5D63003BDA0C /* DesignableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA583A5119FE5D63003BDA0C /* DesignableLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		FA33593219D438A00067FF21 /* InspectableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectableView.swift; sourceTree = "<group>"; };
 		FA33593619D444500067FF21 /* UIView+Inspectables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Inspectables.h"; sourceTree = "<group>"; };
 		FA33593719D444500067FF21 /* UIView+Inspectables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Inspectables.m"; sourceTree = "<group>"; };
+		FA583A5019FE5D63003BDA0C /* DesignableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignableLabel.h; sourceTree = "<group>"; };
+		FA583A5119FE5D63003BDA0C /* DesignableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignableLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				FA33593219D438A00067FF21 /* InspectableView.swift */,
 				FA33593619D444500067FF21 /* UIView+Inspectables.h */,
 				FA33593719D444500067FF21 /* UIView+Inspectables.m */,
+				FA583A5019FE5D63003BDA0C /* DesignableLabel.h */,
+				FA583A5119FE5D63003BDA0C /* DesignableLabel.m */,
 			);
 			name = ExtendingIB;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 				FA33590619D1A5590067FF21 /* AppDelegate.m in Sources */,
 				FA33593319D438A00067FF21 /* InspectableView.swift in Sources */,
 				FA33592919D230EC0067FF21 /* StarView.swift in Sources */,
+				FA583A5219FE5D63003BDA0C /* DesignableLabel.m in Sources */,
 				FA33590319D1A5590067FF21 /* main.m in Sources */,
 				FA33592F19D235470067FF21 /* EllipseView.m in Sources */,
 				FA33593119D23FE80067FF21 /* StarEllipseView.swift in Sources */,
